@@ -286,6 +286,7 @@ img{
   border-radius: .5rem;
   font-weight: var(--font-semi-bold);
   transition: .3s;
+  text-align: center;
 }
 
 .button:hover{
