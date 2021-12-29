@@ -779,3 +779,50 @@ blockquote::after {
   width:100%;
   position:absolute;
 }
+
+.div-gallery-feed{
+	margin-bottom: 50px;
+}
+
+.title-gallery-feed{
+	 text-align: center;
+    text-transform: uppercase;
+    font-weight: 900;
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+
+.gallery-feed img {
+    filter: gray;
+    -webkit-filter: grayscale(1);
+    margin-bottom: 30px;
+    width: 100%;
+}
+
+.gallery-feed img:hover {
+	filter:none;
+	-webkit-filter:grayscale(0);
+}
+
+.center{
+	width: 100%;
+    display: block;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.more-gallery-feed, .read-more{
+    color: #666;
+    text-align: center;
+    font-weight: 900;
+    text-transform: uppercase;
+    padding: 10px 30px;
+    border: 2px solid #666;
+    width: 200px;
+}
+
+.more-gallery-feed:hover, .read-more:hover {
+	color: #000;
+	border: 2px solid #000;
+	text-decoration: none;
+}
